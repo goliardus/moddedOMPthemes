@@ -11,7 +11,7 @@
           "template": "{{ if .WSL }}WSL at{{ end }} {{.Icon}} ",
           "type": "os",
           "properties": {
-            "linux": "\uf32a",
+            "linux": "\uf32a"
           }
         },
         {
