@@ -8,10 +8,12 @@
           "background": "#3A3A3A",
           "foreground": "#ffffff",
           "style": "powerline",
-          "template": "{{ if .WSL }}WSL at{{ end }} {{.Icon}} ",
+          "template": " {{ if eq .OS \"debian\" }}\udb84\udd83{{ else }}{{.Icon}}{{ end }}",
           "type": "os",
           "properties": {
-            "linux": "\uf32a"
+            "display_distro_name": false,
+            "distro_name": "Pop_OS!",
+            "os_icon": "\uf32a"
           }
         },
         {
